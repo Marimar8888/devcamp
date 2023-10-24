@@ -1,9 +1,3 @@
-/* Common styles*/
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
 /* Common nav styles*/
 .navigation-wrapper {
     height: 190px;
@@ -35,8 +29,11 @@ body {
     grid-gap: 10px;
 }
 
-.navigation-wrapper > .contact-hours-wrappers > .hours {
+.navigation-wrapper > .left-column > .contact-hours-wrappers > .hours {
     font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.8em;
+    color: #858585;
+
 }
 
 .links-wrapper > .nav-link {
