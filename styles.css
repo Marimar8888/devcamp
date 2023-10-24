@@ -39,9 +39,21 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
 .links-wrapper > .nav-link a {
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: white;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
 }
 
 .navigation-wrapper > .right-column >.contact-address-wrappers {
