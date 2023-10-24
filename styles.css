@@ -15,7 +15,7 @@ body {
     align-items: center;
     padding: 60px 100px;
 }
-
+/*Left-column Common Styles*/
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
@@ -56,11 +56,8 @@ body {
     letter-spacing: 2px;
 }
 
-.navigation-wrapper > .right-column >.contact-address-wrappers {
-    font-family: 'Ubuntu Condensed', sans-serif;
 
-}
-
+/*Center-column Common Styles*/
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
@@ -81,4 +78,43 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/*Right-column Common Styles*/
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column >.contact-address-wrappers {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navigation-wrapper > .right-column >.contact-address-wrappers a {
+    color: #858585;
+    font-size: 0.9em;
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+
+.navigation-wrapper > .right-column >.contact-address-wrappers a:hover {
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a {
+    color: #cbcbcb;
+    font-size: 2em;
+    transition: 0.5s;
+
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #cea135;
 }
