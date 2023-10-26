@@ -81,4 +81,58 @@
    letter-spacing: 2px;
 }
 
+/* Map Style */
 
+.map {
+    height: 450px;
+}
+
+/* Foot Section styles */
+
+.foot-section {
+    background-color: #11122b;
+    color: #cbcbcb;
+    align-items: center;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-section > .foot-wrapper {
+    width: 550px;
+}
+
+.foot-section > .foot-wrapper > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-section > .foot-wrapper > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.foot-section > .foot-wrapper > .contact-hours-wrappers {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+}
+
+.foot-section > .foot-wrapper > .contact-hours-wrappers > .phone {
+
+    margin-right: 30px;
+}
+
+.foot-section > .foot-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-section > .foot-wrapper > .icons-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
