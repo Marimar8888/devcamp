@@ -35,12 +35,20 @@ h1, h2, h3, h4, h5, h6 {
     opacity:0.5;
 
 }
-
-.foot-section > .foot-wrapper > .contact-hours-wrappers {
+.foot-section > .foot-wrapper > .contact-hours-wrappers{
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
+}
+
+
+.foot-section > .foot-wrapper > .contact-hours-wrappers span {
+    margin-left: 10px;    
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+   
 }
 
 .foot-section > .foot-wrapper > .contact-hours-wrappers > .phone {
@@ -55,34 +63,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .foot-section > .foot-wrapper > .contact-hours-wrappers > .hours {
-    font-family: 'Ubuntu Condensed', sans-serif;
     color: #cea135;
-    margin-right: 30px;
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 .foot-section > .foot-wrapper > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.foot-section > .foot-wrapper > .social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.foot-section > .foot-wrapper > .social-media-icons-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px;
-    color: #cbcbcb;
-}
-
-.foot-section > .foot-wrapper > .social-media-icons-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px;
-}
-
 .foot-section > .foot-wrapper > .social-media-icons-wrapper a{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px;
+    font-size: 1.5em;
     color: #cbcbcb;
     text-decoration: none;
     transition: 0.5s;
@@ -93,8 +95,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .foot-section > .foot-wrapper > .copyright-wrapper {
+    margin-bottom: 42px;
+    color: #858585;
+    font-size: 0.7em;
     display: flex;
     justify-content: center;
-    color: #858585;
-    font-size: 0.9em;
+    
 }
