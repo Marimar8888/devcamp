@@ -7,3 +7,92 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
+
+/* Foot Section styles */
+
+.foot-section {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+
+.foot-section > .foot-wrapper > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-section > .foot-wrapper > .banner-image img {
+    width: 180px;
+    height: 100%;
+
+}
+
+.foot-section > .foot-wrapper > .contact-hours-wrappers {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+}
+
+.foot-section > .foot-wrapper > .contact-hours-wrappers > .phone {
+    color: #858585;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+.foot-section > .foot-wrapper > .contact-hours-wrappers > .phone:hover {
+    color: #cea135;
+    margin-right: 30px;
+}
+
+.foot-section > .foot-wrapper > .contact-hours-wrappers > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cea135;
+    margin-right: 30px;
+}
+
+.foot-section > .foot-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-section > .foot-wrapper > .social-media-icons-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    color: #cbcbcb;
+}
+
+.foot-section > .foot-wrapper > .social-media-icons-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.foot-section > .foot-wrapper > .social-media-icons-wrapper a{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.foot-section > .foot-wrapper > .social-media-icons-wrapper a:hover{
+    color: #cea135;
+}
+
+.foot-section > .foot-wrapper > .copyright-wrapper {
+    display: flex;
+    justify-content: center;
+    color: #858585;
+    font-size: 0.9em;
+}
