@@ -10,3 +10,15 @@
 .anchor-link:hover{
     text-decoration: none;
 }
+
+.anchor-link:focus{
+    outline: none;
+}
+
+.anchor-link h1::after {
+    content: " \f0c1";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color:#cea135;
+
+}
