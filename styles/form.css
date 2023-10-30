@@ -53,8 +53,14 @@
     color: #cea135;
     display: block;
     transition: all 0.3s;
-    /*visibility*/
-     /*opacity*/
+    visibility:hidden;
+    opacity: 0;
 
+}
+
+.form input:focus + label, .form textarea:focus + label {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(1rem);
 }
 
