@@ -48,4 +48,48 @@
     .foot-section {
         height: 100%;
     }
+    .skewed-header > .header-bg{
+        background-size: 550px;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content{
+        flex-direction: column;
+    }
+
+    .page-container {
+        margin-left: 21px;
+        margin-right: 10px;
+    }
+
+    .page-container> .content-wrapper> #Chef {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+    
+    .squares-wrapper > .squares > .square {
+        grid-template-columns: 1fr;
+    }
+
+    .square > .square-text-wrapper{
+        order: 1;
+    }
+
+    .square > .img-wrapper{
+        order: 2;
+    }
+
+    .contact-grid-wrapper{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .form input {   
+        padding: 1.5rem 0rem;
+    }
+
+    .form textarea {   
+        padding: 1.5rem 0rem;
+    }
+
 }
